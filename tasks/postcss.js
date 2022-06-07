@@ -3,7 +3,7 @@
 var path = require('path');
 var postcss = require('postcss');
 var diff = require('diff');
-var chalk = import('chalk');
+var chalk = require('chalk');
 
 module.exports = function(grunt) {
     var options;
